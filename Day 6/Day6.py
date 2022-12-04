@@ -18,3 +18,7 @@ def main():
     grid = np.zeros((max_x, max_y))
 
 t1 = time.perf_counter()
+
+t2 = time.perf_counter()
+
+print(f'Time taken: {(t2-t1):.6f}s')
